@@ -1,0 +1,27 @@
+{
+    "nixpkgs": {
+        "branch": "22.05",
+        "description": "Nix Packages collection",
+        "homepage": "",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "ce6aa13369b667ac2542593170993504932eb836",
+        "sha256": "0d643wp3l77hv2pmg2fi7vyxn4rwy0iyr8djcw1h5x72315ck9ik",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/ce6aa13369b667ac2542593170993504932eb836.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "zig-overlay": {
+        "branch": "main",
+        "description": "Nix flake for the Zig compiler.",
+        "flake": true,
+        "homepage": null,
+        "owner": "mitchellh",
+        "repo": "zig-overlay",
+        "rev": "9c700a256632ede6e40eac3955c2ff4d21964c00",
+        "sha256": "0fh4yrjk418488i6hg3gpcsqnpfi4svgxl1xf5cxx8hpx6dn9ikz",
+        "type": "tarball",
+        "url": "https://github.com/mitchellh/zig-overlay/archive/9c700a256632ede6e40eac3955c2ff4d21964c00.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
