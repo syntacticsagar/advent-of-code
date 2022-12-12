@@ -18,10 +18,23 @@
         "homepage": null,
         "owner": "mitchellh",
         "repo": "zig-overlay",
-        "rev": "9c700a256632ede6e40eac3955c2ff4d21964c00",
-        "sha256": "0fh4yrjk418488i6hg3gpcsqnpfi4svgxl1xf5cxx8hpx6dn9ikz",
+        "rev": "433dd12d996b384a1690b07edb67be3d7744f4c2",
+        "sha256": "0d9746fn6phaf41y3d2kms11bkwdiw7s3r3kis26sy8ljybqnynk",
         "type": "tarball",
-        "url": "https://github.com/mitchellh/zig-overlay/archive/9c700a256632ede6e40eac3955c2ff4d21964c00.tar.gz",
+        "url": "https://github.com/mitchellh/zig-overlay/archive/433dd12d996b384a1690b07edb67be3d7744f4c2.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "zls": {
+        "branch": "master",
+        "description": "Zig LSP implementation + Zig Language Server",
+        "flake": true,
+        "homepage": "https://zigtools.github.io/install-zls/",
+        "owner": "zigtools",
+        "repo": "zls",
+        "rev": "5dca821eb65e5cab8d870d7b9cf9afef8b3c76cb",
+        "sha256": "0fr6p8xf5byrrr2nz2ac8p1md7l5rnhb756wj9q9x8xh2i8f7mg4",
+        "type": "tarball",
+        "url": "https://github.com/zigtools/zls/archive/5dca821eb65e5cab8d870d7b9cf9afef8b3c76cb.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
